@@ -23,7 +23,8 @@ Conectamos o EC2
 ![putty](./imagens/image7.png)
 ![Alt text](./imagens/finaltutorial.png)
 
-Apos isso, fazemos a alteração do código php disponibilizado e adcionamos mais 2 campos desejaveis.
+Apos isso, fazemos a alteração do código php disponibilizado e adcionamos mais 2 campos desejaveis. Atendendo com 3 tipos diferentes de váriavies:
+```NOME (uma string com 45 caracteries de limite), IDADE (uma string, já que não seria feito cálculo), PESO (sendo um inteiro) e ALTURA (sendo um float por ser em Metros)```
 
 Link do drive que contem o video:
 *https://drive.google.com/drive/folders/1Wr_QoSDRtzPWidcRKx5YJF2zg8VfSqAK?usp=drive_link*
