@@ -29,7 +29,7 @@ if (strlen($data_nome) || strlen($data_idade) || strlen($data_peso) || strlen($d
             <td>Nome</td>
             <td>Idade</td>
             <td>Peso</td>
-            <td>Altura</td>
+            <td>Altura (m)</td>
         </tr>
         <tr>
             <td>
@@ -58,7 +58,7 @@ if (strlen($data_nome) || strlen($data_idade) || strlen($data_peso) || strlen($d
         <td>NOME</td>
         <td>IDADE</td>
         <td>PESO</td>
-        <td>ALTURA</td>
+        <td>ALTURA (m)</td>
     </tr>
 
     <?php
@@ -108,7 +108,7 @@ function VerifyDataTable($connection, $dbName) {
             NOME VARCHAR(45),
             IDADE VARCHAR(2),
             PESO int(4),
-            ALTURA int(3)
+            ALTURA float(3)
           )"; 
 
         if (!mysqli_query($connection, $query)) echo("<p>Error creating DATA table.</p>");
